@@ -49,7 +49,7 @@ function ProC() {
       </div>
 
       {/* 🔸 แสดงสินค้า */}
-      <div className='grid grid-cols-1 md:grid-cols-3 gap-5 px-20 bt-5'>
+      <div className='grid grid-cols-1 md:grid-cols-3 gap-5 px-5 md:px-20 bt-5'>
         {displayedProducts.length > 0 ? (
           displayedProducts.map((product) => (
             <Link to={`/details/${product.id}`} key={product.id} target='_parent'>
