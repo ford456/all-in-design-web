@@ -1,0 +1,5 @@
+{
+  "rewrites": [
+    { "source": "/all-in-design-web/(.*)", "destination": "/all-in-design-web/index.html" }
+  ]
+}
