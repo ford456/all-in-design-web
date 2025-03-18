@@ -12,7 +12,7 @@ import { IoSearch } from "react-icons/io5";
 
 
 function ArtPro() {
-  
+
   const [showAll, setShowAll] = useState(false); // ควบคุมการแสดงสินค้า
   const [searchTerm, setSearchTerm] = useState(""); // เก็บค่าค้นหา
 
@@ -36,7 +36,7 @@ function ArtPro() {
   return (
     <div className='bg-white-1000 container mx-auto max-w-[1320px] mt-20'>
       <div className="text-center h-auto md:h-[300px] mt-10 py-0 md:py-5 flex flex-col items-center justify-center">
-        <img className='w-auto max-h-[12rem]' src={ArtLogo} alt="" />
+        <Link to="/Projects" target='_parent' ><img className='w-auto max-h-[12rem]' src={ArtLogo} alt="" /></Link>
       </div>
 
       {/* 🔍 กล่องค้นหา */}
