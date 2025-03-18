@@ -31,7 +31,7 @@ export  function Details() {
       <h1 className="cursor-default text-lg md:text-3xl font-medium mb-5 md:mx-2 indent-15 whitespace-pre-line">{product.title}</h1>
       <img src={product.miximg} alt={product.title} className="w-[1320px] h-auto object-cover mb-3 rounded-2xl shadow-md" />
       <h6 className="cursor-default text-gray-600 text-md md:text-xl my-10 indent-15 text-justify whitespace-pre-line hyphens-auto" lang="th" >{product.description1}</h6>
-      <p className="cursor-default text-gray-600 text-md dm:text-xl my-10 text-left whitespace-pre-line " >{product.description2}</p>
+      <p className="cursor-default text-gray-600 text-md md:text-xl my-10 text-left whitespace-pre-line " >{product.description2}</p>
 
       <div >
       <h3 className="cursor-default text-2xl font-medium my-5 text-center pt-10">ผู้จัดทำ</h3>
