@@ -22,21 +22,27 @@ export default function Project() {
     </div>
       <div>
         <div className='container mx-auto max-w-[1320px] p-10 flex flex-col md:flex-row justify-between items-center '>
+          <Link to='/Art-graphics'target='_parent' >
           <div className='relative w-full md:w-[30%] bg-white shadow-lg rounded-xl overflow-hidden flex flex-col justify-center items-center'>
-            <button  className='absolute bg-[#c1788b] text-white z-1 p-2 px-3 rounded-xl opacity-0 hover:opacity-100  '><Link to='/Art-graphics'target='_parent' >ดูผลงาน</Link></button>
-            <img className='bg-white hover:brightness-50' src={ArtImg} alt=''/>
+            
+            <img className='bg-white ' src={ArtImg} alt=''/>
             <h5 className='cursor-default text-center text-md my-5'>Art & Graphics</h5>
           </div>
+          </Link>
+          <Link to='/Product-craft' target='_parent'>
           <div className='relative w-full md:w-[30%] bg-white shadow-lg rounded-xl overflow-hidden flex flex-col justify-center items-center'>
-            <button  className='absolute bg-[#c1788b] text-white z-1 p-2 px-3 rounded-xl opacity-0 hover:opacity-100  '><Link to='/Product-craft' target='_parent'>ดูผลงาน</Link></button>
-            <img className='bg-white hover:brightness-50' src={ProductImg} alt=''/>
+            
+            <img className='bg-white' src={ProductImg} alt=''/>
             <h5 className='cursor-default text-center text-md my-5'>Product & Craft</h5>
           </div>
-          <div className='relative w-full md:w-[30%] bg-white shadow-lg rounded-xl overflow-hidden flex flex-col justify-center items-center'>
-            <button  className='absolute bg-[#c1788b] text-white z-1 p-2 px-3 rounded-xl opacity-0 hover:opacity-100  '><Link to='/Multimedia' target='_parent'>ดูผลงาน</Link></button>
-            <img className='bg-white hover:brightness-50' src={MultiImg} alt=''/>
+          </Link>
+          <Link to='/Multimedia' target='_parent'>
+          <div className='relative w-full md:w-[30%] bg-white shadow-lg rounded-xl overflow-hidden flex flex-col justify-center items-center hover:shadow-2xl transition duration-500 ease-in-out transform hover:-translate-y-1 hover:scale-105 hover:outline-2 hover:outline-[#c1788b] hover:outline-offset-2'>
+            
+            <img className='bg-white' src={MultiImg} alt=''/>
             <h5 className='cursor-default text-center text-md my-5'>Multimedia</h5>
           </div>
+          </Link>
         </div>  
       </div>
     </div>
