@@ -19,13 +19,13 @@ function ArtPro() {
   const filteredProducts = Datas.filter((Datas) => Datas.category === "Art");
 
   // แสดง 6 ชิ้นแรก ถ้า showAll เป็น false
-  const displayedProducts = showAll ? filteredProducts : filteredProducts.slice(0, 6);
+  const displayedProducts = showAll ? sortedDatas : sortedDatas.slice(0, 6);
 
   // 🔹 เรียงข้อมูล A -> Z (ไม่แก้ไข displayedProducts โดยตรง)
-  const sortedDatas = displayedProducts.slice().sort((a, b) => a.title.localeCompare(b.title));
+  const sortedDatas = searchedProducts.slice().sort((a, b) => a.title.localeCompare(b.title));
 
   // 🔹 กรองสินค้าตามค่าค้นหา
-  const searchedProducts = sortedDatas.filter((product) =>
+  const searchedProducts = filteredProducts.filter((product) =>
     product.title?.toLowerCase().includes(searchTerm.toLowerCase()) ||
     product.name1?.toLowerCase().includes(searchTerm.toLowerCase()) ||
     product.name2?.toLowerCase().includes(searchTerm.toLowerCase()) ||
@@ -53,8 +53,8 @@ function ArtPro() {
       </div>
       <div className='grid grid-cols-1 md:grid-cols-3 gap-5 px-20 bt-5' >
         
-      {searchedProducts.length > 0 ? (
-          searchedProducts.map((product) => (
+      {displayedProducts.length > 0 ? (
+          displayedProducts.map((product) => (
             <Link to={`/details/${product.id}`} key={product.id} target='_parent' >
               <Card  data={product} />
             </Link>
@@ -64,7 +64,7 @@ function ArtPro() {
         )}
       </div>
             {/* ปุ่ม "ดูเพิ่มเติม" */}
-            {!showAll && filteredProducts.length > 6 && (
+            {!showAll && displayedProducts.length > 6 && (
         <div className="text-center my-5 hover:text-[#c1788b] ">
           <button 
             onClick={() => setShowAll(true)} 
