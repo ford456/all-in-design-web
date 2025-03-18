@@ -1,6 +1,6 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
-import Logo from '../assets/img/logofooter.png'
+import Logo from '../assets/img/Logofooter.png'
 
 //icons
 import { RiFacebookCircleLine } from "react-icons/ri"

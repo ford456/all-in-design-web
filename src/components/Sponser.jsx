@@ -1,6 +1,6 @@
 import React from 'react'
 
-import SponserImg from '../assets/img/sponser.png'
+import SponserImg from '../assets/img/Sponser.png'
 
 function Sponser() {
   return (
