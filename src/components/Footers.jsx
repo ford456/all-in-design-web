@@ -30,7 +30,7 @@ export default function Footers() {
                 <div className='flex flex-col justify-self-center r-10 gap-y-2' >
                 <h1 className='pointer-events-none text-2xl font-bold '>ผลงานจัดแสดง</h1>
                 <ul className='text-sm flex flex-col  gap-1'>
-                    <Link to='/Art-graphics'target='_parent'><li>Art & Graphics</li></Link>
+                    <Link to='/Art-graphics'target='_parent'><li>Art & Graphic</li></Link>
                     <Link to='/Product-craft' target='_parent'><li>Product & Packaging</li></Link>
                     <Link to='/Multimedia' target='_parent'><li>Multimedia</li></Link>
                 </ul>
