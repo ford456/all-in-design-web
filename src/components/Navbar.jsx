@@ -47,8 +47,8 @@ function Navbar() {
                 <div className={`${!protoggle ? 'hidden' : 'absolute' } absolute top-45 md:top-15 md:right-40 container md:mx-auto md:max-w-[320px] h-auto grid md:justify-items-end md:items-center z-50`}>
                     <div className='bg-white h-auto md:w-[200px] max-w-[200px] opacity-95 p-3 rounded-xl shadow-md font-normal'>
                         <ul >
-                            <li className='text-[#FFFFF] hover:text-[#c1788b] '><Link to='/Art-graphics' target='_parent' >Art & Graphics</Link></li>
-                            <li className='text-[#FFFFF] hover:text-[#c1788b] '><Link to='/Product-craft' target='_parent'>Product & Craft</Link></li>
+                            <li className='text-[#FFFFF] hover:text-[#c1788b] '><Link to='/Art-graphics' target='_parent' >Art & Graphic</Link></li>
+                            <li className='text-[#FFFFF] hover:text-[#c1788b] '><Link to='/Product-craft' target='_parent'>Product & Packaging</Link></li>
                             <li className='text-[#FFFFF] hover:text-[#c1788b] '><Link to='/Multimedia'target='_parent'>Multimedia</Link></li>
                         </ul>
                     </div>
