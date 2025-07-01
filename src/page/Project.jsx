@@ -26,7 +26,7 @@ export default function Project() {
           <div className='relative w-full md:w-[30%] bg-white mb-5 shadow-lg rounded-xl overflow-hidden flex flex-col justify-center items-center outline-0 outline-[#c1788b] hover:shadow-2xl transition duration-500 ease-in-out transform hover:-translate-y-1 hover:scale-105 hover:outline-2 hover:outline-[#c1788b] hover:outline-offset-2'>
             <Link to='/Art-graphics'target='_parent' >
             <img className='bg-white ' src={ArtImg} alt=''/>
-            <h5 className='cursor-default text-center text-md my-5'>Art & Graphics</h5></Link>
+            <h5 className='cursor-default text-center text-md my-5'>Art & Graphic</h5></Link>
           </div>
           
           
