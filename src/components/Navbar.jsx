@@ -36,6 +36,7 @@ function Navbar() {
 
             <ul className={`${!toggle ? 'hidden' : 'flex' } flex flex-col md:my-5 mt-5 mb-3 md:mx-10 md:flex md:flex-row `}>
                 <li className='my-2 md:mx-4 font-medium text-[#FFFFF] hover:text-[#c1788b]'><Link to="/" target='_parent'>หน้าหลัก</Link></li>
+                <li className='my-2 md:mx-4 font-medium text-[#FFFFF] hover:text-[#c1788b]'><Link to="https://cgup-exhibition.vercel.app/" target='_parent'>All Exhibition</Link></li>
                 <li className='cursor-pointer my-2 md:ml-2 font-medium'>
                     <div className='grid grid-cols-2 gap-2 text-[#FFFFF] hover:text-[#c1788b]'>
                         <p onClick={updateproToggle} className=' flex items-center md:items-center md:flex md:flex-row'>ผลงานจัดแสดง </p>
