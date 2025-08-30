@@ -9,7 +9,7 @@ export default function Book() {
             <a href="https://online.fliphtml5.com/exlay/hleh/" target='_blank' className='inline-flex justify-center items-center bg-[#c1788b] text-xl text-white px-10 mt-5 py-3 rounded-md'  >E-book</a>
         </div>
         <div >
-        <iframe className='container md:h-[720px] mx-auto h-auto min-h-[300px] max-w-[1320px] justify-center items-center ' src="https://online.fliphtml5.com/exlay/hleh/" ></iframe>
+        <iframe className='container md:h-[720px] mx-auto h-auto min-h-[300px] max-w-screen justify-center items-center ' src="https://online.fliphtml5.com/exlay/hleh/" ></iframe>
         </div>
       </div>
     </div>

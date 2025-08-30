@@ -25,11 +25,11 @@ const settings = {
 
  
   return (
-    <div className='container mx-auto max-w-[1320px] md:pt-10 py-10 md:py-20 text-center mt-10'>
+    <div className='container mx-auto max-w-fit md:pt-10 py-10 md:py-20 text-center mt-10'>
       <div><h2 className='cursor-default flex px-5 text-xl md:text-[2.25rem] leading-[1.25] font-medium text-[#FFFFF] justify-center'>กำหนดการงานนิทรรศการ <br/>
       All in Design - Thesis Exhibition 2024</h2>
       </div>
-      <div className=' slider-container mt-10  h-auto max-w-[1320px] z-0 '>
+      <div className=' slider-container mt-10  h-auto max-w-fit z-0 '>
         <Slider 
         {...settings} >
              <div >

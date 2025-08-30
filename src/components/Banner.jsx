@@ -3,8 +3,8 @@ import bannerhome from '../assets/img/bannerhome.png'
 
 export default function Banner() {
   return (
-    <div className='bg-cover h-auto md:max-h-[900px] my-10  pt-10 md:py-5 '>
-        <img className=' w-full ' src={bannerhome} alt="" />
+    <div className='bg-cover max-w-screen h-auto my-10  pt-10 md:py-5 '>
+        <img className=' w-full' src={bannerhome} alt="" />
     </div>
     
   )

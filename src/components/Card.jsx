@@ -5,7 +5,7 @@ function ArtCard({ data }) {
     <div  >
       
     
-        <div key={data.id} className=' flex flex-col outline-0 outline-[#c1788b]  mt-10 mb-2 items-center container mx-auto h-[560px] md:h-[500px] max-w-[1320px] rounded-4xl overflow-hidden shadow-md hover:shadow-2xl transition duration-500 ease-in-out transform hover:-translate-y-1 hover:scale-105 hover:outline-2 hover:outline-[#c1788b] hover:outline-offset-2 ' >
+        <div key={data.id} className=' flex flex-col outline-0 outline-[#c1788b]  mt-10 mb-2 items-center container mx-auto h-[560px] md:h-[500px] max-w-fit rounded-4xl overflow-hidden shadow-md hover:shadow-2xl transition duration-500 ease-in-out transform hover:-translate-y-1 hover:scale-105 hover:outline-2 hover:outline-[#c1788b] hover:outline-offset-2 ' >
       
           <div className=' mb-2 py-0 md:pb-5'>
             
