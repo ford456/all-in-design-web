@@ -14,7 +14,7 @@ export default function HeaderHome() {
             <Link to='/Projects' target='_parent'  className='inline-flex justify-center items-center bg-[#c1788b] text-xl text-white px-10 py-3 mt-10 rounded-md'>ผลงานจัดแสดง</Link>
         </div>
         <div>
-          <img src={HeaderImg} alt="" className='h-auto md:max-w-[550px] md:h-[550px]' />
+          <img src={HeaderImg} alt="" className='h-auto md:max-w-[550px] md:h-[550px] pt-5 sm:pt-0' />
         </div>
 
       </div>
