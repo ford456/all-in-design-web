@@ -11,7 +11,7 @@ import { RiTiktokFill } from "react-icons/ri";
 export default function Footers() {
   return (
     <div>
-        <footer className='bg-black max-w-screen text-white'>
+        <footer className='bg-black max-w-[1320px] text-white'>
             <div className='container mx-auto  pt-10 pb-5 '>
             <div className='grid px-10 md:mx-10 grid-cols-2 gap-4 md:justify-center '>
                 <div>

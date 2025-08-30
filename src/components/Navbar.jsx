@@ -27,7 +27,7 @@ function Navbar() {
     return (
         <div className="Navbar">
             <nav className=' fixed w-full top-[-2px] bg-[#F5F7FA] z-100'>
-                <div className='container mx-auto max-w-screen static h-auto md:p-10 pt-2 px-10 flex flex-col md:flex-row md:justify-between md:items-center md:h-[80px] ' >
+                <div className='container mx-auto max-w-[1320px] static h-auto md:p-10 pt-2 px-10 flex flex-col md:flex-row md:justify-between md:items-center md:h-[80px] ' >
                     <div className='my-2 md:mx-10 flex' >
                         <Link to="/" target='_parent' className='' >
                             <img className="h-13 w-auto " src={Logo} alt="" />
