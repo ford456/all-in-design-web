@@ -44,8 +44,8 @@ function Navbar() {
                             >
                                 <span>ผลงานจัดแสดง</span>
                                 {protoggle
-                                    ? <GoChevronUp className='ml-2' />
-                                    : <GoChevronDown className='ml-2' />
+                                    ? <GoChevronUp className='ml-2 text-2xl stroke-1' />
+                                    : <GoChevronDown className='ml-2 text-2xl stroke-1' />
                                 }
                             </div>
                             {protoggle && (
