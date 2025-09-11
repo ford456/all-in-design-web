@@ -12,8 +12,6 @@ import MultiD from '../page/MultiD'
 import { Details } from '../page/Details'
 
 
-
-
 export default function AppRoutes() {
   return (
     <BrowserRouter>
